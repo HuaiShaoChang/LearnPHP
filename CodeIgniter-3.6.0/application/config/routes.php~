@@ -58,6 +58,6 @@ $route['default_controller'] = 'pages/view';
 $route['svgResizer'] = 'svgresizer/view';
 $route['svgResizer/([A-Za-z0-9\-]+)'] = 'svgresizer/view/$1';
 $route['svgResizer/([A-Za-z0-9\-]+)/([A-Za-z0-9%\-\_\. ]+)'] = 'svgresizer/view/$1/$2';
-$route['svgResizer/([A-Za-z0-9\-]+)/([A-Za-z0-9%\-\_\. ]+)/(\d+(\.\d+)?)'] = 
+$route['svgResizer/([A-Za-z0-9\-]+)/([A-Za-z0-9%\-\_\. ]+)/(\d+(\.\d+))'] = 
     'svgresizer/view/$1/$2/$3';
 $route['(:any)'] = 'pages/view/$1';
